@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #343434;
+}
+
+
+.Navigation {
+    
+    border-radius: 0.8%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30%;
+    background-color: rgba(25, 187, 138, 0.813);
+    box-shadow: 12px 12px 4px rgba(0, 0, 0, 0.4);
+}
+
+.WelcTxt{
+    background-color: rgba(25, 187, 138, 0);
+}
+
+.logo{
+    cursor :pointer;
+    width: 13%;
+    height:auto ;
+    background-color: rgba(25, 187, 138, 0);
+
+}
+.info {
+    float: left;
+    width: 400px;
+    margin-right: 20px;
+    padding: 25px 75px;
+    background-color: #343434;
+    color: white;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  .text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .formClass{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: white;
+    
+  }
+
+  .linktxt{
+    color:rgb(208, 230, 255);
+  }
+
+  .no-bullets{
+    list-style-type: none;
+  }
+
+
+  .no-bullets li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+  }

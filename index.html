@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit aproval</title>
+    <link rel="stylesheet" href="static/style.css">
+    
+</head>
+<body >
+    <!-- Navigation bar -->
+    <div class="Navigation">
+        <img class="logo" src="static/gallery/Ionian_University_seal.png" alt="logo">
+        <h1 class="WelcTxt"> DSS Project P2019095 <h1>
+    </div>
+
+    <!--Information about the application-->
+    <div class="info">
+        <p class="text"> Our goal is to enhance your experience with the Ionian University StudentBank Japan branch. You will be asked a series of questions that will enable our Decision Support System (DSS) to assess your financial situation and determine your eligibility for credit approval. 
+            The system has been meticulously developed using a <a href="https://archive.ics.uci.edu/ml/datasets/Credit+Approval" class ="linktxt">comprehensive dataset from UCL</a> , ensuring robustness and accuracy.
+            <br>
+            <br>
+            <br>
+            DISCLAIMER: 
+                <ul>
+                    <li>We strictly adhere to a policy of not retaining any of your personal information.</li>
+                    <li>The output of this tool should be understood as a suggestion intended solely to support our decision-making process. 
+                        It serves a singular purpose of providing assistance to our system.</li>
+                </ul> 
+            </p>
+    </div>
+
+
+    <!--Form-->
+    <div class="formClass" id="FormId">
+        <h1>Credit Aproval</h1>
+        <form>
+            <div class="input-group">
+                <div class="input-field">
+                    <div class ="A8">
+                        <h3>What is your A8?</h3>
+                        <ul class="no-bullets">
+                            <li><input type="radio" name="A8" value="t" > t</li>
+                            <li><input type="radio" name="A8" value="f" > f</li>
+                        </ul>
+                        
+                        
+                    </div>
+                    <div class="A9">
+                        <h3>What is your A9?</h3>
+                        <ul class="no-bullets">
+                            <li><input type="radio" name="A9" value="t" > t</li>
+                            <li><input type="radio" name="A9" value="f" > f</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="A6">
+                        <h3>What is your A6?</h3>
+                        <ul class="no-bullets">
+                            <li><input type="radio" name="A6" value="v"  > v <input type="radio" name="A6" value="h"  > h <input type="radio" name="A6" value="dd" > dd</li>
+                            <li><input type="radio" name="A6" value="bb" > bb <input type="radio" name="A6" value="ff" > ff <input type="radio" name="A6" value="o"  > o</li>
+                            <li><input type="radio" name="A6" value="j"  > j <input type="radio" name="A6" value="z"  > z <input type="radio" name="A9" value="n"  > n</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="A14">
+                        <h3>What is your A14?</h3>
+                        <ul class="no-bullets">
+                            <li><input type="radio" name="A14" value="l=375"  > 375 or less</li>
+                            <li><input type="radio" name="A14" value="more"  > more</li>
+                        </ul>                        
+                    </div>
+
+                    <div class="A14">
+                        <h3>What is your A13?</h3>
+                        <ul class="no-bullets">
+                            <li><input type="radio" name="A13" value="l=80"  > 80 or less</li>
+                            <li><input type="radio" name="A13" value="more"  > more</li>
+                        </ul>                        
+                    </div>
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html> 
