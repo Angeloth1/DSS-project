@@ -35,56 +35,57 @@
     <!--Form-->
     <div class="formClass" id="FormId">
         <h1>Credit Aproval</h1>
-        <form>
-            <div class="input-group">
-                <div class="input-field">
-                    <div class ="A8">
-                        <h3>What is your A8?</h3>
-                        <ul class="no-bullets">
-                            <li><input type="radio" name="A8" value="t" > t</li>
-                            <li><input type="radio" name="A8" value="f" > f</li>
-                        </ul>
-                        
-                        
-                    </div>
-                    <div class="A9">
-                        <h3>What is your A9?</h3>
-                        <ul class="no-bullets">
-                            <li><input type="radio" name="A9" value="t" > t</li>
-                            <li><input type="radio" name="A9" value="f" > f</li>
-                        </ul>
-
-                    </div>
-
-                    <div class="A6">
-                        <h3>What is your A6?</h3>
-                        <ul class="no-bullets">
-                            <li><input type="radio" name="A6" value="v"  > v <input type="radio" name="A6" value="h"  > h <input type="radio" name="A6" value="dd" > dd</li>
-                            <li><input type="radio" name="A6" value="bb" > bb <input type="radio" name="A6" value="ff" > ff <input type="radio" name="A6" value="o"  > o</li>
-                            <li><input type="radio" name="A6" value="j"  > j <input type="radio" name="A6" value="z"  > z <input type="radio" name="A9" value="n"  > n</li>
-                            
-                        </ul>
-                    </div>
-
-                    <div class="A14">
-                        <h3>What is your A14?</h3>
-                        <ul class="no-bullets">
-                            <li><input type="radio" name="A14" value="l=375"  > 375 or less</li>
-                            <li><input type="radio" name="A14" value="more"  > more</li>
-                        </ul>                        
-                    </div>
-
-                    <div class="A14">
-                        <h3>What is your A13?</h3>
-                        <ul class="no-bullets">
-                            <li><input type="radio" name="A13" value="l=80"  > 80 or less</li>
-                            <li><input type="radio" name="A13" value="more"  > more</li>
-                        </ul>                        
-                    </div>
-
+        <form class="input-group">
+            
+                <div id ="A8">
+                    <h3>What is your A8?</h3>
+                    <ul class="no-bullets">
+                        <li><input type="radio" name="A8" value="t" > t</li>
+                        <li><input type="radio" name="A8" value="f" > f</li>
+                    </ul>    
                 </div>
-            </div>
+                
+                <div id="A9">
+                    <h3>What is your A9?</h3>
+                    <ul class="no-bullets">
+                        <li><input type="radio" name="A9" value="t" > t</li>
+                        <li><input type="radio" name="A9" value="f" > f</li>
+                    </ul>
+                </div>
+                
+                <div id="A6">
+                    <h3>What is your A6?</h3>
+                    <ul class="no-bullets">
+                        <li><input type="radio" name="A6" value="v"  > v <input type="radio" name="A6" value="h"  > h <input type="radio" name="A6" value="dd" > dd</li>
+                        <li><input type="radio" name="A6" value="bb" > bb <input type="radio" name="A6" value="ff" > ff <input type="radio" name="A6" value="o"  > o</li>
+                        <li><input type="radio" name="A6" value="j"  > j <input type="radio" name="A6" value="z"  > z <input type="radio" name="A9" value="n"  > n</li>
+                        
+                    </ul>
+                </div>
+                
+                <div id="A14">
+                    <h3>What is your A14?</h3>
+                    <ul class="no-bullets">
+                        <li><input type="radio" name="A14" value="l=375"  > 375 or less</li>
+                        <li><input type="radio" name="A14" value="more"  > more</li>
+                    </ul>                        
+                </div>
+
+                <div id="A13">
+                    <h3>What is your A13?</h3>
+                    <ul class="no-bullets">
+                        <li><input type="radio" name="A13" value="l=80"  > 80 or less</li>
+                        <li><input type="radio" name="A13" value="more"  > more</li>
+                    </ul>                        
+                </div>
+                
+                <button id="sub">Submit</button>
+            
         </form>
+
+        <div id="popup" class="popup hidden">
+            <p>Sorry, we cannot approve you.</p>
+          </div>
     </div>
 
     <script src="quiz.js"></script>

@@ -58,9 +58,15 @@
     color: white;
     
   }
+  
+
 
   .linktxt{
     color:rgb(208, 230, 255);
+  }
+
+  .input-group h3{
+    background: rgba(25, 187, 138, 0.813);
   }
 
   .no-bullets{
@@ -69,7 +75,36 @@
 
 
   .no-bullets li{
+    background: rgba(12, 100, 113, 0.265);
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 
+  }
+  #sub{
+    position: relative;
+    top: 15px; 
+    background: rgba(25, 187, 138, 0.813);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 100px;
+    height: 50px;
+    border-radius: 22%;
+    cursor: pointer ;
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 9999;
+  }
+  
+  .hidden {
+    display: none;
   }
